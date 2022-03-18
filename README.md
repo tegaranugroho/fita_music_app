@@ -17,6 +17,7 @@ Android Device with Sdk version 31
 - Dart 2.16.1
 
 ### Instructions to build and deploy the app.
+- Clone this project
 - Generate keystore
 - Setting keystore into build gradle or build via generate signed apk in android studio
 - Create build release apk/aab
