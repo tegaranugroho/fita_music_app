@@ -1,16 +1,24 @@
 # fita_music_app
 
-A new Flutter project.
+A Fita Music App project.
 
-## Getting Started
+### Supported devices.
+Android Device with Sdk version 31
 
-This project is a starting point for a Flutter application.
+### Supported features.
+- Music search by term (artist name or song name)
+- Play and pause music
+- Playing indicator in the list item
+- Popup music player controller in the bottom of page
+- Unit testing
 
-A few resources to get you started if this is your first Flutter project:
+### Requirements to build the app.
+- Flutter SDK 2.10.3 
+- Dart 2.16.1
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### Instructions to build and deploy the app.
+- Generate keystore
+- Setting keystore into build gradle or build via generate signed apk in android studio
+- Create build release apk/aab
+- Upload app into android store
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
